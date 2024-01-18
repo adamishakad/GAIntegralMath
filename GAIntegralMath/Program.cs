@@ -30,7 +30,29 @@
             short shortNumber = 30;
             // Example value;
 
+            int complexOperation1 = (number / 2) + 3 * shortNumber;
+            // Combines division, multiplication, and addition.
 
+            // Explanation: First, 'number' is divided by 2, then the result is multiplied by 3 and added to 'shortNumber;
+
+            //lexOperation2 = 5 * (shortNumber - 1000) / 2;
+            // Combines subtraction, multiplication, and division.
+
+            // Explanation: First, 'shortNumber' is subtracted by 1000, then the result is multiplied by 5 and divided by 2;
+
+            int a = 5;
+            int b = 10;
+            int c = 2;
+
+            int complexOperation = (a + b) * c - a / c;
+            // Breakdown:
+            // 1. Parentheses first: (a + b) = 15;
+            // 2. Multiplication: 15 * c = 30;
+            // 3. Division: a / c = 2;
+            // 4. Subtraction: 30 - 2 = 28;
+
+            Console.WriteLine($"Equation 1 Result: equation1");
+            Console.WriteLine($"Equation 2 Result: equation2");
         }
     }
 }
